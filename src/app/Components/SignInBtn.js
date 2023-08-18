@@ -1,20 +1,20 @@
 import Link from "next/link";
 import styled from 'styled-components';
 
-const SignBtn = () => {
+const SignInBtn = () => {
   return (
-    <SignDiv className="signup-box">
+    <SignInDiv className="signup-box">
       <span>
         계정이 없으신가요?{" "}
-        <Link href={"/signup"} style={{ color: "blue" }}>
+        <Link href={"/signup"} style={{color: "blue"}}>
           가입하기
         </Link>
       </span>
-    </SignDiv>
+    </SignInDiv>
   );
 };
 
-const SignDiv = styled.div`
+const SignInDiv = styled.div`
   width: 400px;
   padding: 15px;
   margin-top: 40px;
@@ -27,4 +27,4 @@ const SignDiv = styled.div`
   font-size: 14px;
 `
 
-export default SignBtn;
+export default SignInBtn;
