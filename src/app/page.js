@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import SignIn from "./Components/SignIn";
-import SignBtn from "./Components/SignBtn";
+import SignInBtn from "./Components/SignInBtn";
 import "public/css/main.css";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
           <Link href={"/"}>LOGO</Link>
         </div>
         <SignIn />
-        <SignBtn />
+        <SignInBtn />
       </div>
     </div>
   );
